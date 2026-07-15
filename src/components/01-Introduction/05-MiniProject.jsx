@@ -21,6 +21,7 @@ function ReactInfoCard() {
 // Export the component for use in other files.
 export default ReactInfoCard;
 
+
 /*
 Expected Output:
 

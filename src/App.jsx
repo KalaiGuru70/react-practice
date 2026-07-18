@@ -61,7 +61,7 @@ export default App;
 */
 
 
-import BasicProps from  './components/04-Props/01-BasicProps';
+/*import BasicProps from  './components/04-Props/01-BasicProps';
 import MultipleProps from './components/04-Props/02-MultipleProps';
 import DefaultProps from './components/04-Props/03-DefaultProps';
 import DestructuringProps from './components/04-Props/04-DestructuringProps';
@@ -75,6 +75,26 @@ function App(){
       <DefaultProps/>
       <DestructuringProps/>
       <FunctionProps/>
+      <MiniProject/>
+    </div>
+  );
+}
+export default App;
+*/
+
+import Counter  from './components/05-useState/01-Counter';
+import LikeButton from './components/05-useState/02-LikeButton';
+import ShowHidePassword from './components/05-useState/03-ShowHidePassword';
+import FormInput from './components/05-useState/04-FormInput';
+import MiniProject from './components/05-useState/05-MiniProject';
+
+function App(){
+  return(
+    <div>
+      <Counter/>
+      <LikeButton/>
+      < ShowHidePassword/>
+      <FormInput/>
       <MiniProject/>
     </div>
   );

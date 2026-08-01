@@ -82,7 +82,7 @@ function App(){
 export default App;
 */
 
-import Counter  from './components/05-useState/01-Counter';
+/*import Counter  from './components/05-useState/01-Counter';
 import LikeButton from './components/05-useState/02-LikeButton';
 import ShowHidePassword from './components/05-useState/03-ShowHidePassword';
 import FormInput from './components/05-useState/04-FormInput';
@@ -98,5 +98,19 @@ function App(){
       <MiniProject/>
     </div>
   );
+}
+export default App;
+*/
+
+
+import PageTitleChanger from './components/06-UseEffect/01-PageTitleChanger';
+import DigitalClock from './components/06-UseEffect/02-DigitalClock';
+function App(){
+  return(
+    <div>
+      <PageTitleChanger/>
+      <DigitalClock/>
+    </div>
+  )
 }
 export default App;

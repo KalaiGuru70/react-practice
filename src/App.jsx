@@ -116,7 +116,8 @@ function App(){
 export default App;
 */
 
-import LoginForm from './components/07-EventHandling/01-LoginForm';
+
+/*import LoginForm from './components/07-EventHandling/01-LoginForm';
 import  CharacterCounter from './components/07-EventHandling/02-CharacterCounter';
 
 function App(){
@@ -127,6 +128,23 @@ function App(){
     </div>
   )
 }
+export default App;
+*/
+
+import IfElse from "./components/08-ConditionalRendering/01-IfElse";
+import TernaryOperator from "./components/08-ConditionalRendering/02-TernaryOperator";
+import LogicalAND from "./components/08-ConditionalRendering/03-LogicalAND";
+
+function App() {
+  return (
+    <div>
+      <IfElse />
+      <TernaryOperator />
+      <LogicalAND />
+    </div>
+  );
+}
+
 export default App;
 
     

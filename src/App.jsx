@@ -131,7 +131,7 @@ function App(){
 export default App;
 */
 
-import IfElse from "./components/08-ConditionalRendering/01-IfElse";
+/*import IfElse from "./components/08-ConditionalRendering/01-IfElse";
 import TernaryOperator from "./components/08-ConditionalRendering/02-TernaryOperator";
 import LogicalAND from "./components/08-ConditionalRendering/03-LogicalAND";
 
@@ -147,5 +147,19 @@ function App() {
 
 export default App;
 
-    
+*/
+
+import FruitList from "./components/09-ListsAndKeys/01-FruitList";
+import ProductList from "./components/09-ListsAndKeys/02-ProductList";
+
+function App() {
+  return (
+    <div>
+      <FruitList />
+      <ProductList />
+    </div>
+  );
+}
+
+export default App;
 

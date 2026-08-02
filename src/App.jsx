@@ -103,7 +103,7 @@ export default App;
 */
 
 
-import PageTitleChanger from './components/06-UseEffect/01-PageTitleChanger';
+/*import PageTitleChanger from './components/06-UseEffect/01-PageTitleChanger';
 import DigitalClock from './components/06-UseEffect/02-DigitalClock';
 function App(){
   return(
@@ -114,3 +114,20 @@ function App(){
   )
 }
 export default App;
+*/
+
+import LoginForm from './components/07-EventHandling/01-LoginForm';
+import  CharacterCounter from './components/07-EventHandling/02-CharacterCounter';
+
+function App(){
+  return(
+    <div>
+      <LoginForm/>
+      <CharacterCounter/>
+    </div>
+  )
+}
+export default App;
+
+    
+

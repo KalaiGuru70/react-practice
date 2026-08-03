@@ -149,7 +149,7 @@ export default App;
 
 */
 
-import FruitList from "./components/09-ListsAndKeys/01-FruitList";
+/*import FruitList from "./components/09-ListsAndKeys/01-FruitList";
 import ProductList from "./components/09-ListsAndKeys/02-ProductList";
 
 function App() {
@@ -162,4 +162,24 @@ function App() {
 }
 
 export default App;
+*/
+import TextInput from "./components/10-Forms/01-TextInput";
+import Textarea from "./components/10-Forms/02-Textarea";
+import SelectBox from "./components/10-Forms/03-SelectBox";
+import InternshipAvailability from "./components/10-Forms/05-Checkbox";
 
+
+function App() {
+
+    return (
+
+        <div>
+          <TextInput/>
+          <Textarea />
+          <SelectBox />
+          <InternshipAvailability />
+        </div>
+      );
+}
+
+export default App;

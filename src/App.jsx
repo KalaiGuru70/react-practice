@@ -163,7 +163,8 @@ function App() {
 
 export default App;
 */
-import TextInput from "./components/10-Forms/01-TextInput";
+
+/*import TextInput from "./components/10-Forms/01-TextInput";
 import Textarea from "./components/10-Forms/02-Textarea";
 import SelectBox from "./components/10-Forms/03-SelectBox";
 import InternshipAvailability from "./components/10-Forms/05-Checkbox";
@@ -180,6 +181,21 @@ function App() {
           <InternshipAvailability />
         </div>
       );
+}
+
+export default App;
+*/
+
+import FocusInput from "./components/12-useRef/01-FocusInput";
+import AutoFocusInput from "./components/12-useRef/02-AutoFocusInput";
+
+function App() {
+    return (
+        <div>
+            <FocusInput />
+            <AutoFocusInput />
+        </div>
+    );
 }
 
 export default App;

@@ -186,7 +186,7 @@ function App() {
 export default App;
 */
 
-import FocusInput from "./components/12-useRef/01-FocusInput";
+/*import FocusInput from "./components/12-useRef/01-FocusInput";
 import AutoFocusInput from "./components/12-useRef/02-AutoFocusInput";
 
 function App() {
@@ -196,6 +196,40 @@ function App() {
             <AutoFocusInput />
         </div>
     );
+}
+
+export default App;
+*/
+
+import UserProfile from "./components/13-Props-Drilling/01-UserProfile";
+import Parent from "./components/13-Props-Drilling/02-Parent";
+import Child from "./components/13-Props-Drilling/03-Child";
+import GrandChild from "./components/13-Props-Drilling/04-GrandChild";
+
+function App() {
+  return (
+     <div>
+      <UserProfile />
+      <Parent />
+      <Child />
+      <GrandChild />
+    </div>
+  );
+}
+
+export default App;
+
+
+import UserContextExample from "./components/14-useContext/02-UserContextExample";
+import ThemeProvider from "./components/14-useContext/07-ThemeProvider";
+
+function App() {
+  return (
+    <div>
+      <UserContextExample />
+      <ThemeProvider />
+    </div>
+  );
 }
 
 export default App;

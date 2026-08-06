@@ -201,7 +201,7 @@ function App() {
 export default App;
 */
 
-import UserProfile from "./components/13-Props-Drilling/01-UserProfile";
+/*import UserProfile from "./components/13-Props-Drilling/01-UserProfile";
 import Parent from "./components/13-Props-Drilling/02-Parent";
 import Child from "./components/13-Props-Drilling/03-Child";
 import GrandChild from "./components/13-Props-Drilling/04-GrandChild";
@@ -218,9 +218,10 @@ function App() {
 }
 
 export default App;
+/*
 
 
-import UserContextExample from "./components/14-useContext/02-UserContextExample";
+/*import UserContextExample from "./components/14-useContext/02-UserContextExample";
 import ThemeProvider from "./components/14-useContext/07-ThemeProvider";
 
 function App() {
@@ -228,6 +229,20 @@ function App() {
     <div>
       <UserContextExample />
       <ThemeProvider />
+    </div>
+  );
+}
+
+export default App;
+*/
+
+
+import ReducerExample from "./components/16-useReducer/01-ReducerExample";
+
+function App() {
+  return (
+    <div>
+      <ReducerExample />
     </div>
   );
 }

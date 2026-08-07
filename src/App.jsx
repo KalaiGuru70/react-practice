@@ -237,12 +237,25 @@ export default App;
 */
 
 
-import ReducerExample from "./components/16-useReducer/01-ReducerExample";
+/*import ReducerExample from "./components/16-useReducer/01-ReducerExample";
 
 function App() {
   return (
     <div>
       <ReducerExample />
+    </div>
+  );
+}
+
+export default App;
+*/
+
+import FetchUsers from "./components/16-API-Fetch/01-FetchUsers";
+
+function App() {
+  return (
+    <div>
+      <FetchUsers />
     </div>
   );
 }

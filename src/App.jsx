@@ -250,13 +250,47 @@ function App() {
 export default App;
 */
 
-import FetchUsers from "./components/16-API-Fetch/01-FetchUsers";
+/*import FetchUsers from "./components/16-API-Fetch/01-FetchUsers";
 
 function App() {
   return (
     <div>
       <FetchUsers />
     </div>
+  );
+}
+
+export default App;
+*/
+
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/17-React-Router/04-Navbar";
+import Home from "./components/17-React-Router/01-Home";
+import About from "./components/17-React-Router/02-About";
+import Contact from "./components/17-React-Router/03-Contact";
+import Login from "./components/17-React-Router/05-Login";
+
+function App() {
+  return (
+    <BrowserRouter>
+
+      <Navbar />
+
+      <Routes>
+
+        <Route path="/" element={<Home />} />
+
+        <Route path="/about" element={<About />} />
+
+        <Route path="/contact" element={<Contact />} />
+
+        <Route path="/login" element={<Login />} />
+
+      </Routes>
+
+    </BrowserRouter>
   );
 }
 
